@@ -66,7 +66,7 @@ public class LauncherFrame extends JFrame {
         instancesModel = new InstanceTableModel(launcher.getInstances());
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(700, 450);
+        setSize(900, 450);
         setMinimumSize(new Dimension(400, 300));
         initComponents();
         setLocationRelativeTo(null);
